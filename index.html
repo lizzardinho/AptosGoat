@@ -5,14 +5,35 @@
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 	<title>Aptos Goats</title>
     <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
 
 <body>
 
 
 	
-	<a href="https://twitter.com/intent/tweet?text=🧟‍♂️%20You%20have%20been%20bitten%20by%20@Zombie_ETH_%20🧟‍♂️%0A%0AJoin%20us%20here%20if%20you%20want%20the%20antidote%20:%20t.me/ZombieApocalypseETH"
-	><img src="button.png"  target="blank" class="center"> </a>
+	<a href="https://twitter.com/intent/tweet?text=🐐%20I'm%20worthy%20to%20join%20Aptos%20Goats%20🐐%0A%0A🕯️%20Enter:%20 https://www.aptosgoats.xyz/%0A%0A@AptosGoats%20%23AptosGoats"
+	><img src="button.png" id="twitter-cto" target="blank" class="center"  > </a>
+
+
+	<script defer>
+		var x = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E',
+		'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2',
+		'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2',
+		'3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
+		'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y',
+		'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
+		'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+		];
+		var hash = "0x" + generateMixed(22);
+		var action = document.getElementById('twitter-cto')
+		
+		if (action) {
+		  var rand = Math.random().toString().substring(1, 100)
+		  action.href = action.href + '%0a%0a' + hash
+		}
+	  </script>
 
 	
 </body>
+
